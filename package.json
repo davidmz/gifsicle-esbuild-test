@@ -1,0 +1,15 @@
+{
+  "name": "gifsicle-esbuild-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "David Mzareulyan",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild index.js --outfile=out.js --bundle --platform=node",
+    "run": "node out.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.14.39",
+    "gifsicle": "^7.0.0"
+  }
+}
